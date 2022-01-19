@@ -8,59 +8,59 @@ strings:
     admin:
       main: "Admin"
       help: |-
-        Lazy to promote or demote someone for admins? Want to see basic information about chat?
-        All stuff about chatroom such as admin lists, pinning or grabbing an invite link can be done easily using the bot.
-        **User Commands:**
-        × /adminlist: List all the admins in the Group.
-        **Admin only:**
-        × /invitelink: Gets chat invitelink.
-        × /promote: Promotes the user replied to or tagged (supports with title).
-        × /fullpromote: Fully Promotes the user replied to or tagged (supports with title).
-        × /demote: Demotes the user replied to or tagged.
-        × /admincache: Reloads the List of all the admins in the Group.
-        × /zombies: Bans all the deleted accounts. (owner only)
-        × /title: sets a custom title for an admin that the bot promoted.
-        × /disable <commandname>: Stop users from using "commandname" in this group.
-        × /enable <item name>: Allow users from using "commandname" in this group.
-        × /disableable: List all disableable commands.
-        × /disabledel <yes/off>: Delete disabled commands when used by non-admins.
-        × /disabled: List the disabled commands in this chat.
-        × /enableall: enable all disabled commands.
+        Лениво повышать или понижать кого-то в админы? Хотите увидеть основную информацию о чате?
+        Все вещи, связанные с чатом, такие как списки администраторов, закрепление или захват ссылки-приглашения, можно легко сделать с помощью бота.
+        **Команды пользователя:**
+        × /adminlist: Список всех администраторов в группе.
+        **Только администратор:**
+        × /invitelink: Получает ссылку для приглашения в чат.
+        × /promote: продвигает пользователя, которому он ответил или отметил (поддерживается с заголовком).
+        × /fullpromote: полностью продвигает пользователя, которому он ответил или отметил (поддерживается с заголовком).
+        × /demote: Понижает пользователя, которому ответили или отметили.
+        × /admincache: перезагружает список всех администраторов в группе.
+        × /zombies: заблокировать все удаленные учетные записи. (только владелец)
+        × /title: задает пользовательский титул для администратора, которого повысил бот.
+        × /disable <commandname>: запретить пользователям использовать «commandname» в этой группе.
+        × /enable <имя элемента>: разрешить пользователям использовать «имя команды» в этой группе.
+        × /disableable: Список всех отключаемых команд.
+        × /disabledel <yes/off>: удалять отключенные команды, если они используются пользователями, не являющимися администраторами.
+        × /disabled: Список отключенных команд в этом чате.
+        × /enableall: включить все отключенные команды.
 
         **Example:**
         `/promote @username`: this promotes a user to admin.
     approve:
       main: "Approve"
       help: |-
-        Sometimes, you might trust a user not to send unwanted content.
-        Maybe not enough to make them admin, but you might be ok with locks, blacklists, and antiflood not applying to them.
-        That's what approvals are for - approve trustworthy users to allow them to send stuff without restrictions!
-        **Admin commands:**
-        × /approval: Check a user's approval status in this chat.
-        × /approve: Approve of a user. Locks, blacklists, and antiflood won't apply to them anymore.
-        × /unapprove: Unapprove of a user. They will now be subject to blocklists.
-        × /approved: List all approved users.
-        × /unapproveall: Unapprove *ALL* users in a chat. This cannot be undone!
+        Иногда вы можете доверять пользователю, чтобы он не отправлял нежелательный контент.
+        Может быть, недостаточно, чтобы сделать их администраторами, но вы можете быть в порядке с блокировками, черными списками и антифлудом, которые к ним не применяются.
+        Для этого и нужны одобрения — одобряйте заслуживающих доверия пользователей, чтобы они могли отправлять материалы без ограничений!
+        **Команды администратора:**
+        × /approval: проверить статус одобрения пользователя в этом чате.
+        × /approve: Одобрить пользователя. Блокировки, черные списки и антифлуд к ним больше не применяются.
+        × /unapprove: Отменить утверждение пользователя. Теперь они будут включены в черный список.
+        × /approved: Список всех одобренных пользователей.
+        × /unapproveall: Отменить одобрение *ВСЕХ* пользователей в чате. Это не может быть отменено!
         **Example:**
         `/approve @username`: this approves a user in the chat.
     greetings:
       main: "Greetings"
       help: |-
-        Customize your group's welcome / goodbye messages that can be personalised in multiple ways.
+        Настройте приветственные/прощальные сообщения вашей группы, которые можно персонализировать несколькими способами.
 
-        Note:
-        a) Currently it supports only text!
-        b) Alita must be an admin to greet and goodbye users.
+        Примечание:
+        а) В настоящее время он поддерживает только текст!
+        б) BORZ должен быть администратором, чтобы приветствовать и прощаться с пользователями.
 
-        Admin Commands:
-        × /setwelcome <reply> : Sets a custom welcome message.
-        × /setgoodbye <reply> : Sets a custom goodbye message.
-        × /resetwelcome : Resets to bot default welcome message.
-        × /resetgoodbye : Resets to bot default goodbye message.
-        × /welcome <on/off> | noformat : enable/disable | Shows the current welcome message | settings.
-        × /goodbye <on/off> | noformat : enable/disable | Shows the current goodbye message | settings.
-        × /cleanwelcome <on/off> : Shows or sets the current clean welcome settings.
-        × /cleangoodbye <on/off> : Shows or sets the current clean goodbye settings.
+        Команды администратора:
+        × /setwelcome <ответ> : устанавливает пользовательское приветственное сообщение.
+        × /setgoodbye <ответ> : устанавливает пользовательское прощальное сообщение.
+        × /resetwelcome : сбрасывает приветственное сообщение бота по умолчанию.
+        × /resetgoodbye : сбрасывает сообщение бота на прощание по умолчанию.
+        × / приветствие <вкл/выкл> | noformat : включить/отключить | Показывает текущее приветственное сообщение | настройки.
+        × /до свидания <вкл/выкл> | noformat : включить/отключить | Показывает текущее прощальное сообщение | настройки.
+        × /cleanwelcome <on/off> : показывает или устанавливает текущие настройки чистого приветствия.
+        × /cleangoodbye <on/off> : показывает или устанавливает текущие настройки чистого прощания.
 
         ── **Cleaner** ──:
         × /cleanservice <on/off> : Use it to clean all service messages automatically or to view current status.
@@ -71,234 +71,234 @@ strings:
     bans:
       main: "Bans"
       help: |-
-        Someone annoying entered your group?
-        Want to ban/restriction him/her?
-        This is the plugin for you, easily kick, ban and unban members in a group.
-        **Admin only:**
-        × /kick: Kick the user replied or tagged.
-        × /skick: Kick the user replied or tagged and delete your messsage.
-        × /dkick: Kick the user replied and delete their message.
-        × /ban: Bans the user replied to or tagged.
-        × /sban: Bans the user replied or tagged and delete your messsage.
-        × /dban: Bans the user replied and delete their message.
-        × /tban <userhandle> x(m/h/d): Bans a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
-        × /stban <userhandle> x(m/h/d): Silently bans a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
-        × /dtban <userhandle> x(m/h/d): Silently bans a user for x time and delete the replied message. (via reply). m = minutes, h = hours, d = days.
-        × /unban: Unbans the user replied to or tagged.
-        **Example:**
-        `/ban @username`: this bans a user in the chat.
+        Кто-то надоедливый вошел в вашу группу?
+        Хотите запретить/ограничить его/ее?
+        Это плагин для вас, легко кикайте, баньте и разбаньте участников в группе.
+        **Только администратор:**
+        × /kick: Исключить ответившего или отмеченного пользователя.
+        × /skick: удалить ответившего или отмеченного пользователя и удалить свое сообщение.
+        × /dkick: удалить ответившего пользователя и удалить его сообщение.
+        × /ban: забанить пользователя, которому он ответил или отметил.
+        × /sban: забанить пользователя, который ответил или отметил его, и удалить ваше сообщение.
+        × /dban: забанить ответившего пользователя и удалить его сообщение.
+        × /tban <userhandle> x(m/h/d): банит пользователя на x раз. (через дескриптор или ответ). m = минуты, h = часы, d = дни.
+        × /stban <дескриптор пользователя> x(m/h/d): молча блокирует пользователя на x раз. (через дескриптор или ответ). m = минуты, h = часы, d = дни.
+        × /dtban <дескриптор пользователя> x(m/h/d): молча блокирует пользователя на x раз и удаляет ответное сообщение. (через ответ). m = минуты, h = часы, d = дни.
+        × /unban: разблокирует пользователя, которому он ответил или отметил.
+        **Пример:**
+        `/ban @username`: блокирует пользователя в чате.
     blacklist:
       main: "Blacklist"
       help: |-
-        Want to restrict certain words or sentences in your group?
-        Blacklists are used to stop certain triggers from being said in a group. Any time the trigger is mentioned, that message will immediately be deleted.
-        A good combo is sometimes to pair this up with warn filters!
-        **NOTE:** blacklists do not affect group admins.
-        × /blacklist: View the current blacklisted words.
-        **Admin only:**
-        × /addblacklist `<triggers>`: Add a trigger to the blacklist. Each line is considered one trigger, so using different lines will allow you to add multiple triggers.
-        × /unblacklist `<triggers>`: Remove triggers from the blacklist. Same newline logic applies here, so you can remove multiple triggers at once.
-        × /blaction `<action>`: This action will occur when user uses a blacklist word. Choose from - 'kick', 'ban', 'mute', 'warn'.
-        Default is 'none', which will delete the users message on typing a blacklist word.
-        **Owner Only**
-        × /rmallblacklist: Removes all the blacklists from the current chat.
-        **Note:** Can only add or remove one blacklist at a time!
-        **Example:**
-        `/addblacklist hello`: this adds the word 'hello' as blacklist in the chat.
+        Хотите ограничить определенные слова или предложения в вашей группе?
+        Черные списки используются для предотвращения произнесения определенных триггеров в группе. Каждый раз, когда упоминается триггер, это сообщение будет немедленно удалено.
+        Хорошая комбинация — иногда сочетать это с предупреждающими фильтрами!
+        **ПРИМЕЧАНИЕ.** черные списки не влияют на администраторов групп.
+        × /blacklist: просмотреть текущие слова из черного списка.
+        **Только администратор:**
+        × /addblacklist `<triggers>`: добавить триггер в черный список. Каждая строка считается одним триггером, поэтому использование разных строк позволит вам добавить несколько триггеров.
+        × /unblacklist `<триггеры>`: удалить триггеры из черного списка. Здесь применяется та же логика новой строки, поэтому вы можете удалить сразу несколько триггеров.
+        × /blaction `<action>`: это действие происходит, когда пользователь использует слово из черного списка. Выберите из — «кикнуть», «запретить», «отключить звук», «предупредить».
+        По умолчанию «нет», что удалит сообщение пользователя при вводе слова из черного списка.
+        **Только владелец**
+        × /rmallblacklist: удаляет все черные списки из текущего чата.
+        **Примечание.** За один раз можно добавить или удалить только один черный список!
+        **Пример:**
+        `/addblacklist hello`: это добавляет слово "привет" в черный список в чате.
     filters:
       main: "Filters"
       help: |-
-        • /filters: List all active filters saved in the chat.
+        • /filters: список всех активных фильтров, сохраненных в чате.
 
-        **Admin only:**
-        • /filter "`<keyword>`" `<reply message>`: Add a filter to this chat. The bot will now reply that message whenever 'keyword'
-        is mentioned. If you reply to a sticker with a keyword, the bot will reply with that sticker.
+        **Только администратор:**
+        • /filter "`<ключевое слово>`" `<ответное сообщение>`: добавить фильтр к этому чату. Теперь бот будет отвечать на это сообщение всякий раз, когда «ключевое слово»
+        упомянуто. Если вы ответите на наклейку с ключевым словом, бот ответит этой наклейкой.
 
-        If you want your keyword to be a sentence, use quotes. eg: /filter "hey there" How are you doin?
-        **Example:**
-        `/filter "filtername" Reply Text`
+        Если вы хотите, чтобы ваше ключевое слово было предложением, используйте кавычки. например: /filter "Привет" Как дела?
+        **Пример:**
+        `/filter "filtername" Текст ответа`
 
-        Aliases for filters can be too set, just put '|' between the filternames you want.
-        **Example:**
-        `/filter "filtername1|filtername2" Reply Text`
-        Using the you can make a single filter work on 2 filternames without manually adding another one.
+        Псевдонимы для фильтров тоже могут быть заданы, просто поставьте '|' между именами фильтров, которые вы хотите.
+        **Пример:**
+        `/filter "filtername1|filtername2" Текст ответа`
+        С помощью вы можете заставить один фильтр работать с двумя именами фильтров, не добавляя вручную еще один.
 
-        • /stop `<filter keyword>`: Stop that filter.
-        **Note:** For filters with aliases, if you stop one alias, the filter will stop working on other aliases too.
-        **For Example:** If you stop the "filtername1" from above example, the bot will not respond to "filtername2".
+        • /stop `<ключевое слово фильтра>`: остановить этот фильтр.
+        **Примечание.** Для фильтров с псевдонимами: если вы остановите один псевдоним, фильтр перестанет работать и с другими псевдонимами.
+        **Например:** Если вы остановите «filtername1» из приведенного выше примера, бот не будет реагировать на «filtername2».
 
-        **Chat creator only:**
-        • /removeallfilters: Remove all chat filters at once.
+        **Только создатель чата:**
+        • /removeallfilters: удалить сразу все фильтры чата.
 
-        **Note:**
-        Currently there is a limit of 50 filters and 120 aliases per chat.
-        All filter keywords are in lowercase.
+        **Примечание:**
+        В настоящее время существует ограничение в 50 фильтров и 120 псевдонимов на чат.
+        Все ключевые слова фильтра написаны строчными буквами.
     formatting:
       main: "Formatting"
       help: |-
         Formatting
 
-        Alita supports a large number of formatting options to make your messages more expressive. Take a look by clicking the buttons below!
+        BORZ поддерживает большое количество вариантов форматирования, чтобы сделать ваши сообщения более выразительными. Посмотрите, нажав на кнопки ниже!
     fun:
       main: "Fun"
       help: |-
-        × /runs: reply a random string from an array of replies.
-        × /slap: slap a user, or get slapped if not a reply.
-        × /shrug : get shrug XD.
-        × /decide : Randomly answers yes/no/maybe
-        × /toss : Tosses A coin
-        × /bluetext : check urself :V
-        × /roll : Roll a dice.
-        × /react : Random Reaction
-        × /shout `<keyword>`: write anything you want to give loud shout.
+        × /runs: ответить на случайную строку из массива ответов.
+        × /slap: дать пощечину пользователю или получить пощечину, если не ответит.
+        × /shrug : пожать плечами XD.
+        × /decide : случайные ответы да/нет/может быть
+        × /toss : бросает монету
+        × /bluetext : проверь себя :V
+        × /roll : бросить кубик.
+        × /react : Случайная реакция
+        × /shout `<ключевое слово>`: напишите все, что вы хотите громко кричать.
     language:
       main: "Language"
       help: |-
-        Not able to change language of the bot?
-        Easily change by using this module!
+        Не можете изменить язык бота?
+        Легко изменить с помощью этого модуля!
 
-        Just type /lang and use inline keyboard to choose a language for yourself or your group.
+        Просто введите /lang и используйте встроенную клавиатуру, чтобы выбрать язык для себя или своей группы.
 
-        You can help us bring bot to more languages by helping on [Crowdin](https://crowdin.com/project/alita_robot)
+        Вы можете помочь нам перевести бота на другие языки, помогая на [Crowdin](https://crowdin.com/project/alita_robot)
     locks:
       main: "Locks"
       help: |-
-        Use this to lock group permissions.
-        Allows you to lock and unlock permission types in the chat.
+        Используйте это, чтобы заблокировать групповые разрешения.
+        Позволяет блокировать и разблокировать типы разрешений в чате.
 
-        **Usage:**
-        × /lock `<type>`: Lock Chat permission.
-        × /unlock `<type>`: Unlock Chat permission.
-        × /locks: View Chat permission.
-        × /locktypes: Check available lock types!
+        **Использование:**
+        × /lock `<type>`: заблокировать разрешение на чат.
+        × /unlock `<type>`: разблокировать разрешение на чат.
+        × /locks: разрешение на просмотр чата.
+        × /locktypes: Проверьте доступные типы замков!
 
-        **Example:**
-        `/lock media`: this locks all the media messages in the chat.
+        **Пример:**
+        `/lock media`: блокирует все мультимедийные сообщения в чате.
     muting:
       main: "Muting"
       help: |-
-        Want someone to keep quite for a while in the group?
-        Mute plugin is here to help, mute or unmute any user easily!
+        Хотите, чтобы кто-то остался на некоторое время в группе?
+        Плагин Mute здесь, чтобы помочь, легко отключить или включить звук любого пользователя!
 
-        **Admin only:**
-        × /mute: Mute the user replied to or mentioned.
-        × /smute: silences a user without notifying. Can also be used as a reply, muting the replied to user.
-        × /dmute: Mute a user by reply, and delete their message.
-        × /tmute <userhandle> x(m/h/d): mutes a user for x time. (via handle, or reply). m = minutes, h = hours, d = days.
-        × /stmute <userhandle> x(m/h/d): mutes a user for x time without notifying. (via handle, or reply). m = minutes, h = hours, d = days.
-        × /dtmute <userhandle> x(m/h/d): Mute the replied user, and delete the replied message. (via reply). m = minutes, h = hours, d = days.
-        × /unmute: Unmutes the user mentioned or replied to.
+        **Только администратор:**
+        × /mute: отключить звук пользователя, которому он ответил или упомянул.
+        × /smute: заставляет пользователя замолчать без уведомления. Также может использоваться в качестве ответа, отключая ответ пользователю.
+        × /dmute: Отключить пользователя, ответив на него, и удалить его сообщение.
+        × /tmute <userhandle> x(m/h/d): заглушает пользователя на x раз. (через дескриптор или ответ). m = минуты, h = часы, d = дни.
+        × /stmute <userhandle> x(m/h/d): заглушает пользователя на x раз без уведомления. (через дескриптор или ответ). m = минуты, h = часы, d = дни.
+        × /dtmute <userhandle> x(m/h/d): отключить звук ответившего пользователя и удалить ответное сообщение. (через ответ). m = минуты, h = часы, d = дни.
+        × /unmute: включает звук пользователя, упомянутого или ответившего.
 
-        **Example:**
-        `/mute @username`; this mutes a user.
+        **Пример:**
+        `/mute @username`; это заглушает пользователя.
     notes:
       main: "Notes"
       help: |-
-        Save a note, get that, even you can delete that note.
-        This note only avaiable for your whole group!
-        Only admins can save and deletenotes, anyone can get them.
+        Сохраните заметку, получите ее, даже вы можете удалить эту заметку.
+        Эта заметка доступна только для всей вашей группы!
+        Сохранять и удалять заметки могут только администраторы, получить их может любой.
 
-        × /save `<notename>` <`note content or reply to message>`
-        Save a note, you can get or delete that later.
+        × /save `<имя заметки>` <`содержимое заметки или ответ на сообщение>`
+        Сохраните заметку, вы можете получить или удалить ее позже.
 
-        × /get `<note>` or #<note>
-        Get that note, if avaiable.
+        × /get `<заметка>` или #<заметка>
+        Получите эту записку, если таковая имеется.
 
-        × /get `<note>` noformat or /get `<note>` raw
-        Get that note in raw format, so you can edit and update it.
+        × /get `<note>` noformat или /get `<note>` raw
+        Получите эту заметку в необработанном формате, чтобы вы могли редактировать и обновлять ее.
 
-        × /clear `<note>`
-        Delete that note, if avaiable.
+        × /clear `<примечание>`
+        Удалите это примечание, если оно доступно.
 
-        × /clearall
-        Clears all notes in the chat!
-        **NOTE:** Can only be used by owner of chat!
+        × / очистить все
+        Очищает все заметки в чате!
+        **ПРИМЕЧАНИЕ.** Может использоваться только владельцем чата!
 
-        × /saved or /notes
-        Get all your notes, if too much notes, please use this in your saved message instead!
+        × /сохранено или /заметки
+        Получите все свои заметки, если слишком много заметок, используйте это вместо этого в своем сохраненном сообщении!
 
-        × /privatenotes `<on/yes/no/off>`: Whether to turn private rules on or off, prevents spam in chat when people use notes command.
+        × /privatenotes `<on/yes/no/off>`: включить или выключить частные правила, чтобы предотвратить спам в чате, когда люди используют команду заметок.
 
-        ── **Note Format** ──
-        Check /markdownhelp for help related to formatting!
+        ── **Формат заметки** ──
+        Проверьте /markdownhelp для помощи, связанной с форматированием!
     pins:
       main: "Pins"
       help: |-
-        Here you find find all help related to groups pins and how to manage them via me.
+        Здесь вы найдете всю помощь, связанную с групповыми контактами и тем, как управлять ими через меня.
 
-        **Admin Cmds:**
-        × /pin: Silently pins the message replied to - add `loud`, `notify` or `alert` to give notificaton to users.
-        × /unpin: Unpins the last pinned message.
-        × /pinned: Gives the current pinned message of the chat.
-        × /unpinall: Unpins all the pinned message in the current chat.
-        × /antichannelpin `<on/off/yes/no>`: Toggle antichannelpin status. All the messages from linked channel will be unpinned if enabled!
-        × /cleanlinked `<on/off/yes/no>`: Toggle cleanlinked status. All the messages from linked channel will be deleted if enabled!
-        × /permapin `<text>`: Pin a custom messages via bot. This message can contain markdown, and can be used in replies to the media include additional buttons and text.
+        **Команды администратора:**
+        × /pin: Тихо прикрепляет сообщение, на которое ответили — добавьте «громко», «уведомлять» или «предупреждать», чтобы уведомлять пользователей.
+        × /unpin: открепить последнее закрепленное сообщение.
+        × /pinned: показывает текущее закрепленное сообщение чата.
+        × /unpinall: Открепить все закрепленные сообщения в текущем чате.
+        × /antichannelpin `<on/off/yes/no>`: переключить статус antichannelpin. Все сообщения из связанного канала будут откреплены, если включено!
+        × /cleanlinked `<on/off/yes/no>`: переключить статус чистой ссылки. Все сообщения из связанного канала будут удалены, если включено!
+        × /permapin `<text>`: закрепить пользовательские сообщения через бота. Это сообщение может содержать уценку и может использоваться в ответах на средства массовой информации, включая дополнительные кнопки и текст.
     purges:
       main: "Purges"
       help: |-
-        Want to delete messages in you group?
-        × /purge: Deletes messages upto replied message.
-        × /spurge: Deletes messages upto replied message without a success message.
-        × /del: Deletes a single message, used as a reply to message.
+        Хотите удалить сообщения в вашей группе?
+        × /purge: Удаляет сообщения до отвеченного сообщения.
+        × /spurge: Удаляет сообщения до отвеченного сообщения без сообщения об успешном завершении.
+        × /del: Удаляет одно сообщение, используемое в качестве ответа на сообщение.
 
-        **Example:**
-        `/purge <as a reply to message>`: this will delete all the messages till the one you replied.
+        **Пример:**
+        `/purge <как ответ на сообщение>`: это удалит все сообщения до того, на которое вы ответили.
     reporting:
       main: "Reporting"
       help: |-
-        × /report `<reason>`: reply to a message to report it to admins.
-        - @admin: reply to a message to report it to admins.
-        **NOTE:** Neither of these will get triggered if used by admins.
+        × /report `<причина>`: ответьте на сообщение, чтобы сообщить об этом администраторам.
+        - @admin: ответьте на сообщение, чтобы сообщить об этом администраторам.
+        **ПРИМЕЧАНИЕ.** Ни один из них не сработает, если его используют администраторы.
 
-        **Admins Only:**
-        × /reports `<on/off/yes/no>`: change report setting, or view current status.
-          - If done in PM, toggles your status.
-          - If in group, toggles that groups's status.
+        **Только для администраторов:**
+        × /reports `<on/off/yes/no>`: изменить настройки отчета или просмотреть текущий статус.
+          - Если сделано в PM, переключает ваш статус.
+          - Если в группе, переключает статус этой группы.
     rules:
       main: "Rules"
       help: |-
-        Set rules for you chat so that members know what to do and what not to do in your group!
+        Установите правила для своего чата, чтобы участники знали, что делать и чего не делать в вашей группе!
 
-        × /rules: get the rules for current chat.
+        × /rules: получить правила для текущего чата.
 
-        **Admin only:**
-        × /setrules `<rules>`: Set the rules for this chat, also works as a reply to a message.
-        × /clearrules: Clear the rules for this chat.
-        × /privrules `<on/yes/no/off>`: Turns on/off the option to send the rules to PM of user or group.
+        **Только администратор:**
+        × /setrules `<rules>`: установить правила для этого чата, также работает как ответ на сообщение.
+        × /clearrules: удалить правила для этого чата.
+        × /privrules `<on/yes/no/off>`: включает/отключает возможность отправки правил в личное сообщение пользователя или группы.
     utils:
       main: "Utils"
       help: |-
-        Some utils provided by bot to make your tasks easy!
+        Некоторые утилиты, предоставляемые ботом, облегчают ваши задачи!
 
-        × /id: Get the current group id. If used by replying to a message, get that user's id.
-        × /info: Get information about a user.
-        × /gifid: Reply to a gif to me to tell you its file ID.
-        × /wiki: `<query>`: wiki your query.
-        × /tr `<language>`: Translates the text and then replies to you with the language you have specifed, works as a reply to message.
-        × /github `<username>`: Search for the user using github api!
-        × /lyrics `<song>`: Get the lyrics of the song you specify!
-        × /weebify `<text>` or `<reply to message>`: To weebify the text.
+        × /id: Получить текущий идентификатор группы. Если используется при ответе на сообщение, получите идентификатор этого пользователя.
+        × /info: Получить информацию о пользователе.
+        × /gifid: ответьте мне на гифку, чтобы сообщить идентификатор ее файла.
+        × /wiki: `<query>`: wiki ваш запрос.
+        × /tr `<язык>`: переводит текст, а затем отвечает вам на указанном вами языке, работает как ответ на сообщение.
+        × /github `<username>`: поиск пользователя с помощью github api!
+        × /lyrics `<song>`: Получить текст указанной вами песни!
+        × /weebify `<text>` или `<ответить на сообщение>`: чтобы сделать текст Weebify.
 
-        **Example:**
-        `/info @username`: this fetches the information about a user from the database.
+        **Пример:**
+        `/info @username`: извлекает информацию о пользователе из базы данных.
     warnings:
       main: "Warnings"
       help: |-
-        Keep your members in check with warnings; stop them getting out of control!
+        Держите своих членов в курсе с предупреждениями; остановить их выйти из-под контроля!
 
-        If you're looking for automated warnings, go read about the blacklist module.
+        Если вы ищете автоматические предупреждения, прочитайте о модуле черного списка.
 
-        Admin commands:
-        - /warn `<reason>`: Warn a user.
-        - /dwarn `<reason>`: Warn a user by reply, and delete their message.
-        - /swarn `<reason>`: Silently warn a user, and delete your message.
-        - /warns: See a user's warnings.
-        - /rmwarn: Remove a user's latest warning.
-        - /resetwarn: Reset all of a user's warnings to 0.
-        - /warnings: Get the chat's warning settings.
-        - /warnmode `<ban/kick/mute>`: Set the chat's warn mode.
-        - /warnlimit `<number>`: Set the number of warnings before users are punished.
+        Команды администратора:
+        - /warn `<причина>`: Предупредить пользователя.
+        - /dwarn `<причина>`: Предупредить пользователя ответом и удалить его сообщение.
+        - /swarn `<причина>`: тихо предупредить пользователя и удалить ваше сообщение.
+        - /warns: просмотр предупреждений пользователя.
+        - /rmwarn: удалить последнее предупреждение пользователя.
+        - /resetwarn: сбросить все предупреждения пользователя до 0.
+        - /warnings: получить настройки предупреждений чата.
+        - /warnmode `<ban/kick/mute>`: Установить режим предупреждения чата.
+        - /warnlimit `<число>`: установить количество предупреждений, прежде чем пользователи будут наказаны.
 
         Examples:
         `/warn @user`: this warns a user in the chat.
@@ -357,7 +357,7 @@ strings:
     md_help: |-
       <b>Markdown Formatting</b>
       You can format your message using <b>bold</b>, <i>italic</i>, <u>underline</u>, <strike>strike</strike> and much more. Go ahead and experiment!
-
+      
       **Note**: It supports telegram user based formatting as well as html and markdown formattings.
       <b>Supported markdown</b>:
       - <code>`code words`</code>: Backticks are used for monospace fonts. Shows as: <code>code words</code>.
