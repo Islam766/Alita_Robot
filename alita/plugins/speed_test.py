@@ -1,7 +1,7 @@
 import speedtest
-from alitarobot import DEV_USERS, dispatcher
-from TGNRobot.modules.disable import DisableAbleCommandHandler
-from TGNRobot.modules.helper_funcs.chat_status import dev_plus
+from alita import DEV_USERS, dispatcher
+from alita.modules.disable import DisableAbleCommandHandler
+from alita.modules.helper_funcs.chat_status import dev_plus
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, ParseMode, Update
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
 
